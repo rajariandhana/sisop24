@@ -1,0 +1,15 @@
+#minute hour date month day[0-6]
+
+# Every 00:00
+# 0 0 * * * ./isabel-a.sh NolNol
+# Every 5 hours
+# 0 */5 * * * ./isabel-a.sh EvenOdd
+
+# Every hour
+# 0 * * * * ./isabel-b.sh
+
+# Every 2 AM
+# 0 2 * * * ./isabel-c.sh
+
+# Every day on 00:00
+# 0 0 * * * ./isabel-d.sh
