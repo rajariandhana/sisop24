@@ -1,0 +1,3 @@
+#minute hour date month day[0-6]
+# 0 0 * * * ./isabel-a.sh NolNol
+# 0 */5 * * * ./isabel-a.sh EvenOdd
