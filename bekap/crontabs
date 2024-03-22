@@ -1,12 +1,14 @@
 #minute hour date month day[0-6]
 
-# Every 00:00
-# 0 0 * * * ./isabel-a.sh NolNol
+# must specify file path
+# * * * * * /home/blablabla/file.sh
+
 # Every 5 hours
-# 0 */5 * * * ./isabel-a.sh EvenOdd
+# 0 */5 * * * ./isabel-a.sh
 
 # Every hour
-# 0 * * * * ./isabel-b.sh
+# * */1 * * * ./isabel-b.sh
+# @hourly ./isabel-b.sh
 
 # Every 2 AM
 # 0 2 * * * ./isabel-c.sh
